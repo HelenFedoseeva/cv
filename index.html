@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/styles.css">
     <title>CV</title>
 </head>
 <body>
-    <main>
+    <main class="main">
         <h1 class="visually-hidden">Curriculum Vitae</h1>
         <div class="container">
             <section class="section side-bar">
                 <div class="side-bar__img">
-                    <img src="./img/black.jpg" alt="black background" width="100" height="150">
+                    <img src="./img/black.jpg" alt="black background" width="370" height="354">
                 </div>
-                <div class="side-bar__contacts">
-                    <h2>Contact Information</h2>
+               <div class="side-bar-info">
+                <div class="side-bar__contacts side-bar-info__section">
+                    <h2 class="side-bar-info__title">Contact Information</h2>
                     <ul class="side-bar__list list">
                         <li class="side-bar__list-item"><a href="tel:(+373) 68-45-75-10">(+373) 68-45-75-10</a></li>
                         <li class="side-bar__list-item"><a href="mailto:helenlena52@gmail.com">helenlena52@gmail.com</a></li>
@@ -26,58 +31,94 @@
                         <li class="side-bar__list-item">Chisinau, Moldova</li>
                     </ul>
                 </div>
-                <div class="side-bar__tech-skills">
-                    <h2>Tech skills</h2>
-                    <ul class="side-bar__list list">
-                        <li class="side-bar__list-item">HTML5/CSS3/SASS/Responsive/Adaptive design/Git</li>
-                        <li class="side-bar__list-item">Javascript ECMA6</li>
-                        <li class="side-bar__list-item">React</li>
-                        <li class="side-bar__list-item">REST API</li>
-                        <li class="side-bar__list-item">Webpack</li>
-                        <li class="side-bar__list-item">Parcel</li>
+                <div class="side-bar__tech-skills side-bar-info__section">
+                    <h2 class="side-bar-info__title">Tech skills</h2>
+                    <ul class="side-bar__list">
+                        <li class="side-bar__list-item"><span class="list-item__span">HTML5/CSS3/SASS/Responsive/Adaptive design/Git</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">Javascript ECMA6</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">React</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">REST API</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">Webpack</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">Parcel</span></li>
                     </ul>
                 </div>
-                <div class="side-bar__soft-skills">
-                    <h2>Soft skills</h2>
-                    <ul class="side-bar__list list">
-                        <li class="side-bar__list-item">Attention to detail</li>
-                        <li class="side-bar__list-item">Teamwork</li>
-                        <li class="side-bar__list-item">Calm</li>
-                        <li class="side-bar__list-item">Honest</li>
-                        <li class="side-bar__list-item">Effective listening side-bar__tech-skills</li>
-                        <li class="side-bar__list-item">Quick learning skills</li>
+                <div class="side-bar__soft-skills side-bar-info__section">
+                    <h2 class="side-bar-info__title">Soft skills</h2>
+                    <ul class="side-bar__list">
+                        <li class="side-bar__list-item"><span class="list-item__span">Attention to details</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">Teamwork</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">Calm</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">Honest</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">Effective listening side-bar__tech-skills</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">Quick learning skills</span></li>
                     </ul>
                 </div>
-                <div class="side-bar__languages">
-                    <h2>Languages</h2>
-                    <ul class="side-bar__list list">
-                        <li class="side-bar__list-item">English - Pre-Intermediate</li>
-                        <li class="side-bar__list-item">Russian - Native</li>
-                        <li class="side-bar__list-item">Romaninan - Native</li>
+                <div class="side-bar__languages side-bar-info__section">
+                    <h2 class="side-bar-info__title">Languages</h2>
+                    <ul class="side-bar__list">
+                        <li class="side-bar__list-item"><span class="list-item__span">English - Pre-Intermediate</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">Russian - Native</span></li>
+                        <li class="side-bar__list-item"><span class="list-item__span">Romaninan - Native</span></li>
                     </ul>
                 </div>
-                <div class="description">
-                    <div class="description__title">
-                        <h2>Helen Fedoseeva</h2>
-                        <p>Junior frontend developer</p>
+               </div>
+            </section>
+            <section class="section description">
+                <div class="description__title">
+                    <h2 class="description__name">Helen Fedoseeva</h2>
+                    <p class="description__prof">Junior frontend developer</p>
+                </div>
+                <div class="description__info">
+                    <div class="description-info__about">
+                        <h3 class="description__summary">Summary</h3>
+                        <p class="description__text">I am a Front-End developer looking for a full-time position in a
+                        company that's aimed at making both everyday life and business
+                        easier, more productive and user-friendly. I have sound knowledge
+                        of HTML, CSS, JavaScript, and React. Also, I have hands-on
+                        experience in following Agile /Scrum methodology when working in
+                        a team. I am a fast learner, responsible, and ready for challenging
+                        tasks.</p>
                     </div>
-                    <div class="description__info">
-                        <div>
-                            <h3 class="description__summary">Summary</h3>
-                            <p class="description__text"></p>
-                        </div>
-                        <div>
-                            <h3 class="description__summary">Project experience</h3>
-                            <p class="description__text"></p>
-                        </div>
-                        <div>
-                            <h3 class="description__summary">Work experience</h3>
-                            <p class="description__text"></p>
-                        </div>
-                        <div>
-                            <h3 class="description__summary">Education</h3>
-                            <p class="description__text"></p>
-                        </div>
+                    <div class="description-info__about">
+                        <h3 class="description__summary">Project experience</h3>
+                            <ul class="description__list list">
+                                <li class="description__list-item">
+                                    <span class="description__list-item-span">Filmoteka</span>
+                                    <a href="https://helenfedoseeva.github.io/team-project-movie/">Link</a>
+                                    <p class="description__list-item-about">
+                                        [HTML, SASS, JS, Handlebars, REST API, AJAX, Parcel]
+                                        Application for choosing a movie. Role: Team-lead
+                                        App component with Public and Private routes, AuthPage page logic.
+                                        Deploy project on Github.
+                                    </p>
+                                </li>
+                                <li>
+                                    <span class="description__list-item-span">UWinnipegAlumni</span>
+                                    <a href="https://helenfedoseeva.github.io/UWinnipegAlumni/">Link</a>
+                                    <p class="description__list-item-about">
+                                        [HTML, SASS, JS, Parcel]
+                                        Application for Canada University. Role: Front-End developer
+                                        Deploy project on Github.
+                                    </p>
+                                </li>
+                                <li>
+                                    <span class="description__list-item-span">To do list</span>
+                                    <a href="https://helenfedoseeva.github.io/react-app-todo-list/">Link</a>
+                                    <p class="description__list-item-about">
+                                        [HTML, JS, React JS]
+                                        Application for creating your own tasks list. Role: Front-End developer
+                                        Deploy project on Github.
+                                    </p>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="description-info__about">
+                        <h3 class="description__summary">Work experience</h3>
+                        <p class="description__text"></p>
+                    </div>
+                    <div class="description-info__about">
+                        <h3 class="description__summary">Education</h3>
+                        <p class="description__text"></p>
                     </div>
                 </div>
             </section>
