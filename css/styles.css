@@ -1,12 +1,9 @@
 a{
-/* text-decoration: none; */
+
 font-family: inherit;
 color: inherit;
 }
 
-/* ul, li{
-    list-style: none;
-} */
 
 
 h1,
@@ -48,9 +45,7 @@ body{
     
 }
 
-/* .section{
-    padding: 40px;
-} */
+
 
 main{
     background-color: #ebf6fa;
@@ -64,22 +59,13 @@ main{
 
 .side-bar{
     max-width: 370px;
-    /* background-color: #1E2939; */
-    /* color: #fff; */
+   
 }
 
 .side-bar__img {
     margin-bottom: 50px;
   
   
-}
-
-.side-bar__contacts {}
-
-
-
-.side-bar__list {
-
 }
 
 .side-bar-info__title{
@@ -104,8 +90,6 @@ main{
         font-weight: 400;
         font-size: 14px;
         line-height: 1,71;
-       
-        color: #FB6D3A;
 }
 .list-item__span{
 color: #7f8388;
@@ -119,25 +103,6 @@ color: #7f8388;
     margin-bottom: 8px;
 }
 
-/* .side-bar__list-item::before{
-    content: '';
-
-    border-radius: 50%;
-    background-color: #FB6D3A;
-     height: 5px;
-    width: 5px;
- margin-right: 8px;
-} */
-
-.side-bar__tech-skills {}
-
-.side-bar__soft-skills {}
-
-.side-bar__languages {}
-
-
-
-.description {}
 
 .description__title {
     margin-bottom: 25px;
