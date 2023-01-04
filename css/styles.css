@@ -175,6 +175,9 @@ color: #7f8388;
         margin-bottom: 8px;
 }
 
+.description__list-item:not(:last-child){
+    margin-bottom: 10px;
+}
 .description__list-item-about {
         font-weight: 400;
         font-size: 14px;
@@ -183,4 +186,19 @@ color: #7f8388;
 
 .description-info__about{
     margin-bottom: 50px;
+}
+
+.description__text {
+    margin-bottom: 20px;
+}
+
+.description__text-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.description__text-year {
+    display: block;
+    
 }
